@@ -13,7 +13,7 @@ void sendMessage(String SMS)
 {
   Serial.println("AT+CMGF=1");
   delay(1000);
-  Serial.println("AT+CMGS=\"+917318709841\"\r");
+  Serial.println("AT+CMGS=\"+91731XXXXXXX\"\r");
   delay(1000);
   Serial.println(SMS);
   delay(100);
